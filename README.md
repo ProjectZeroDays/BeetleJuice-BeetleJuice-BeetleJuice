@@ -1,5 +1,5 @@
-<h3> Call Device Info Using JS</h3>
 <p align="center">
+<h3> Call Device Info Using JS</h3>
 <br>
 <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="License"></a><br>
 <br>
