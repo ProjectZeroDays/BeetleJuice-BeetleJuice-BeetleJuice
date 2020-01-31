@@ -1,5 +1,5 @@
 <p align="center">
-<h3> Call Device Info Using JS</h3>
+<h5> Calls Device Info From a WebServer Using JavaScript</h5>
 <br>
 <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="License"></a><br>
 <br>
