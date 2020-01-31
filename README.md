@@ -3,22 +3,36 @@
     <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="License"></a>
 </p>
 
-> #### Call Device Information Using JS 
+#### Call Device Information Using JS 
 
- - deviceType: Type of Device
- - OS: Operating System
- - OSVersion: Operating System Version
- - screenHeight: Screen Height
- - screenWidth: Screen Width
- - language: Device Language - Country 
- - netWork: Networking Information 
- - orientation: Cross-Screen or Screen Rotation
- - browserInfo: Browser Information
- - fingerprint: Browser FingerPrint
- - userAgent: Contains appCodeName, appName, appVersion, Language, Platform Information
- - groPosition: Geo Location 
- - date: System Time and Date 
-##### - UUID: Universal Unique Identifier
+##### - deviceType: 
+Type of Device
+##### - OS: 
+Operating System
+##### - OSVersion: 
+Operating System Version
+##### - screenHeight: 
+Screen Height
+##### - screenWidth: 
+Screen Width
+##### - language: 
+Device Language - Country 
+##### - netWork: 
+Networking Information 
+##### - orientation: 
+Cross-Screen or Screen Rotation
+##### - browserInfo: 
+Browser Information
+##### - fingerprint: 
+Browser FingerPrint
+##### - userAgent: 
+Contains appCodeName, appName, appVersion, Language, Platform Information
+##### - groPosition: 
+Geo Location 
+##### - date: 
+System Time and Date 
+##### - UUID: 
+Universal Unique Identifier
 
 #### How To Call:
 
