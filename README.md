@@ -5,40 +5,49 @@
 
 #### Call Device Information Using JS 
 
-Type of Device:
+#### Type of Device:<br>
     - deviceType
 
-Operating System:
+#### Operating System:<br>
     - OS
 
-Operating System Version:
-    OSVersion
+#### Operating System Version:<br>
+    - OSVersion
 
-Screen Height:
-    screenHeight 
+#### Screen Height:<br>
+    - screenHeight 
 
-##### - screenWidth: 
-Screen Width
-##### - language: 
-Device Language - Country 
-##### - netWork: 
-Networking Information 
-##### - orientation: 
-Cross-Screen or Screen Rotation
-##### - browserInfo: 
-Browser Information
-##### - fingerprint: 
-Browser FingerPrint
-##### - userAgent: 
-Contains appCodeName, appName, appVersion, Language, Platform Information
-##### - groPosition: 
-Geo Location 
-##### - date: 
-System Time and Date 
-##### - UUID: 
-Universal Unique Identifier
+#### Screen Width:<br>
+    - screenWidth
 
-#### How To Call:
+#### Device Language - Country:<br>
+    - language
+
+#### Networking Information:<br>
+    - netWork
+
+#### Screen Orientation:<br>
+    - orientation
+
+#### Browser Information:<br>
+    - browserInfo
+ 
+#### Browser FingerPrint:<br>
+    - fingerprint 
+
+#### Contains: (appCodeName, appName, appVersion, Language, & Platform Information)<br>
+    - userAgent
+
+#### Geo Location:<br>
+    - groPosition
+
+#### System Time and Date:<br>
+    - date
+
+#### Universal Unique Identifier:<br>
+    - UUID 
+
+#### How To Call:<br>
 
  ```
     document.write(JSON.stringify(DeviceInfo.getDeviceInfo(
@@ -49,10 +58,10 @@ Universal Unique Identifier
      )))
  ```
 
-#### Usage: Display All Device Information Automatically By Default 
+#### Usage: Display All Device Information Automatically By Default
 
     window.location.host; 
 
-#### Note: A hosted domain is required to pass fingerprint and is not given by default
+#### Note: (A hosted domain is required to pass fingerprint and is not given by default)
 
  
