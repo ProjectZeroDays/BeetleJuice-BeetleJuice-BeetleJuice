@@ -5,14 +5,18 @@
 
 #### Call Device Information Using JS 
 
-##### - deviceType: 
-Type of Device
-##### - OS: 
-Operating System
-##### - OSVersion: 
-Operating System Version
-##### - screenHeight: 
-Screen Height
+Type of Device:
+    - deviceType
+
+Operating System:
+    - OS
+
+Operating System Version:
+    OSVersion
+
+Screen Height:
+    screenHeight 
+
 ##### - screenWidth: 
 Screen Width
 ##### - language: 
