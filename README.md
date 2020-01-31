@@ -1,5 +1,5 @@
 #### Call Device Info Using JavaScript on a WebServer
-<p align="center"><a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="License"></a><br>
+<p align="left"><a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="License"></a><br>
 <br>
   <a href="https://www.reddit.com/Anonym0us_User">Reddit</a>  •  <a href="https://twitter.com/ProjectZeroDays">Twitter</a>
 <br>
