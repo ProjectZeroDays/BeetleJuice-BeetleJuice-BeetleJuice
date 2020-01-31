@@ -18,9 +18,10 @@
  - userAgent: Contains appCodeName, appName, appVersion, Language, Platform Information
  - groPosition: Geo Location 
  - date: System Time and Date 
- - UUID: Universal Unique Identifier
+##### - UUID: Universal Unique Identifier
 
- > #### How To Call：
+#### How To Call:
+
  ```
     document.write(JSON.stringify(DeviceInfo.getDeviceInfo(
          {
@@ -30,8 +31,10 @@
      )))
  ```
 
-#### Note：A hosted domain is required to pass fingerprint and is not given by default
 #### Usage: Display All Device Information Automatically By Default 
 
     window.location.host; 
 
+#### Note: A hosted domain is required to pass fingerprint and is not given by default
+
+ 
