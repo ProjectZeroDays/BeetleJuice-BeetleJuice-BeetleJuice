@@ -1,0 +1,118 @@
+html, body {
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 16px;
+    background: #3b8dbb;
+    color: white;
+    margin: 0;
+    padding: 1rem;
+}
+
+.keyTipBox {
+    margin: 5px;
+    word-break: break-all;
+}
+
+.getInfoBox {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 25px;
+}
+
+.getInfoBox textarea {
+    display: flex;
+    flex: 4;
+    height: 35px;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.getInfoBox button {
+    margin: 0 10px;
+    width: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #3c8dbc;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #3c8dbc;
+    color: #fff;
+    font-weight: 300;
+}
+
+.getInfoBox button:hover {
+    background-color: #387ca8;
+}
+
+#info_box {
+    word-break: break-all;
+}
+
+textarea::placeholder {
+    padding: 8px;
+    font-weight: 300;
+}
+
+/*========= start loading =========*/
+
+.ball-pulse {
+    transform: scale(1);
+}
+
+.ball-pulse > div:nth-child(1) {
+    -webkit-animation: ball-pulse-scale 0.75s -0.24s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+    animation: ball-pulse-scale 0.75s -0.24s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+}
+
+.ball-pulse > div:nth-child(2) {
+    -webkit-animation: ball-pulse-scale 0.75s -0.12s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+    animation: ball-pulse-scale 0.75s -0.12s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+}
+
+.ball-pulse > div:nth-child(3) {
+    -webkit-animation: ball-pulse-scale 0.75s 0s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+    animation: ball-pulse-scale 0.75s 0s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+}
+
+.ball-pulse > div {
+    background-color: #0FB560;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin: 2px;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: inline-block;
+}
+
+@keyframes ball-pulse-scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+    45% {
+        -webkit-transform: scale(0.1);
+        transform: scale(0.1);
+        opacity: 0.7;
+    }
+    80% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/*========= end loading =========*/
