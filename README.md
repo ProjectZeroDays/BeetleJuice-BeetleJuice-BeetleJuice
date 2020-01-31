@@ -3,8 +3,8 @@
 <br>
 <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="License"></a><br>
 
-<a href="https://raw.githubusercontent.com/ProjectZeroDays/Get-Device-Info-Baby/master/LICENSE"><img src="" alt="License MIT"></a>
-
+<a href="https://raw.githubusercontent.com/ProjectZeroDays/Get-Device-Info-Baby/master/LICENSE"><img src="" alt="License MIT">License MIT</a>
+<br>
   <a href="https://www.reddit.com/Anonym0us_User">Reddit</a>  •  <a href="https://twitter.com/ProjectZeroDays">Twitter</a>
 <br>
 <br>
