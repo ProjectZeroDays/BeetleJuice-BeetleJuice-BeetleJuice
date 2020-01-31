@@ -1,10 +1,13 @@
-<h2> Call Device Information Using JS </h1>
+<h3> Call Device Information Using JS </h3>
 <p align="center">
   <a href="https://www.reddit.com/Anonym0us_User"><img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-reddit-circle-512.png" alt="Reddit">
 <br>
-<a href="https://raw.githubusercontent.com/ProjectZeroDays/Get-Device-Info-Baby/master/LICENSE"><img src="" alt="License MIT"></a><br><a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="License"></a>
+<a href="https://raw.githubusercontent.com/ProjectZeroDays/Get-Device-Info-Baby/master/LICENSE"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/License_icon-mit.svg/600px-License_icon-mit.svg.png" alt="License MIT"></a><br><a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="License"></a>
 <br>
-<p> This is a small simple javascript module that access device info such as OS, OS Version, App IDs Codes ant Version, Browser Fingerprint, Device Language, Screen Dimensions & Orientation, Device Date & Time, Networking Information, & Provide a UUID. In order for this module to work, it must be hosted on your own domain in order to fingerprint the device properly. Use at your own discretion. I am not responsible for any misuse of this application. Apple changes its' terms and agreements often it is up to you to check and decide if this tool still complies wit their terms of agreement. My team and I are not liable for any misuse / damage or legal suites that derive from use of this software. It's design is for OSINT and DevOps. Cheers!   
+<p> This is a small simple javascript module that access device info such as OS, OS Version, App IDs Codes ant Version, Browser Fingerprint, Device Language, Screen Dimensions & Orientation, Device Date & Time, Networking Information, & Provide a UUID. In order for this module to work, it must be hosted on your own domain in order to fingerprint the device properly. Use at your own discretion. I am not responsible for any misuse of this application. Apple changes its' terms and agreements often it is up to you to check and decide if this tool still complies wit their terms of agreement. My team and I are not liable for any misuse / damage or legal suites that derive from use of this software. It's design is for OSINT and DevOps. Cheers!</p>
+
+### JS Functions & Usage 
+
 #### Type of Device:<br>
     - deviceType
 
@@ -47,7 +50,7 @@
 #### Universal Unique Identifier:<br>
     - UUID 
 
-#### How To Call:<br>
+#### Device Info Module & Usage: (How To Call)<br>
 
  ```
     document.write(JSON.stringify(DeviceInfo.getDeviceInfo(
@@ -58,10 +61,11 @@
      )))
  ```
 
-#### Usage: Display All Device Information Automatically By Default
+#### Usage: (Display All Device Information Automatically By Default)
 
     window.location.host; 
 
-#### Note: (A hosted domain is required to pass fingerprint and is not given by default)
+#### Note: 
+    A hosted domain is required to pass fingerprint and is not given by default.
 
  
