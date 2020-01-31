@@ -1,4 +1,4 @@
-<h3> Call Device Information Using JS</h3>
+<h3> Call Device Info Using JS</h3>
 <p align="center">
 <br>
   <a href="https://www.reddit.com/Anonym0us_User">Reddit</a><a href="https://www.reddit.com/Anonym0us_User">Reddit</> • <a href="https://twitter.com/ProjectZeroDays">Twitter</a>
