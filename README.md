@@ -30,10 +30,8 @@
      )))
  ```
 
-#### Note：A hosted domain is required to pass fingerprint and is not given by default 
+#### Note：A hosted domain is required to pass fingerprint and is not given by default
+#### Usage: Display All Device Information Automatically By Default 
 
-### Usage:
+    window.location.host; 
 
-#### window.location.host; 
-
-### Displays All Device Information Automatically By Default 
